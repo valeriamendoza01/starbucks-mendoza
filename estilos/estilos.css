@@ -188,6 +188,13 @@ button{
     flex-wrap: wrap;
     align-content: space-around;*/
 }
+.paginamenu__imagenes{
+    transition: all 1s;
+}
+.paginamenu__imagenes:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 2px 0 rgb(59, 136, 59);
+}
 .paginamenu__parte1--1{
     margin: 1em;
     padding: 0,5em;
