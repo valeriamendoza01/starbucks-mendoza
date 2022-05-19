@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   /* background-color:rgb(24, 23, 23) ;*/
+    color: $color-principal;
+    font-family: 'Nunito', sans-serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+button{
+    color: $color-principal;
+    border: 0,6em solid rgb(24, 23, 23);
+    border-radius: 16px;
+}

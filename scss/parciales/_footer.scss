@@ -1,0 +1,33 @@
+/*FOOTER*/
+.footer{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    &__logo{
+        margin: 1em;
+    }
+    &__formulario{
+        color: rgb(12, 68, 12);
+        margin: 1em;
+        padding: 0;
+        text-align: center;
+    }
+    &__logos{
+        color: rgb(12, 68, 12);
+        text-align: center;
+    }
+    &__link{
+        color: rgb(12, 68, 12);
+        text-decoration: none;
+    }
+    &__texto{
+        color: rgb(12, 68, 12);
+        text-align: center;
+        margin: 1em;
+        padding: 0;
+    }
+}
