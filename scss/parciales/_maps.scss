@@ -1,0 +1,11 @@
+// agregado de mapas
+$redes: ( //declaro mapa
+    facebook: #4867aa,
+    instagram: #a231c1,
+    twitter: #1d9bf0,
+);
+@each $red, $color in $redes {
+    .btn-#{$red} {
+        background-color: $color;
+    }
+}

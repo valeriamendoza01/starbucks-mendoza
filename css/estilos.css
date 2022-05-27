@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.btn-facebook {
+  background-color: #4867aa;
+}
+
+.btn-instagram {
+  background-color: #a231c1;
+}
+
+.btn-twitter {
+  background-color: #1d9bf0;
+}
+
 /*HEADER*/
 .navegador {
   background-color: aliceblue;
