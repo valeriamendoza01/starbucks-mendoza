@@ -11,8 +11,14 @@
         padding-bottom: 70px;
         padding-top: 30px
     }
-    &__parte1{
-        /*background-color: rgb(176, 231, 150);*/
+    &__texto{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    &__texto1{
+        padding-top: 1em;
+    }
+ /*   &__parte1{
         margin: 1em;
         padding: 0,5em;
         width: 100%;
@@ -26,11 +32,6 @@
         "elem1 elem4 elem4 ";
         justify-content: center;
         justify-items: center;
-       /* flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
-        align-content: space-between;*/
     }
     &__parte1--1{
         margin: 1em;
@@ -39,30 +40,30 @@
         justify-self: stretch;
        /* align-self: flex-start; */
         
-    }
-    &__parte1--2{
+ /*   }
+ /*   &__parte1--2{
         margin: 1em;
         padding: 0,5em;
         grid-area: elem2;
        /* align-self: center; */
        
     }
-    &__parte1--3{
+ /*   &__parte1--3{
         margin: 1em;
         padding: 0,5em;
         grid-area: elem3;
        /* align-self: flex-end; */
-    }
-    &__parte1--4{
+  /*  }
+  /*  &__parte1--4{
         margin: 1em;
         padding: 0.5em;
         grid-area: elem4;
     
     }
-    &__parte2{
+  /*  &__parte2{
         /*background-color: rgb(219, 218, 141);*/
         /*background-color: rgb(24, 23, 23);*/
-        margin: 1em;
+  /*      margin: 1em;
         padding: 0,5em;
         width: 100%;
         height: 300px;
@@ -81,28 +82,28 @@
         align-items: flex-start;
         flex-wrap: nowrap;
         align-content: space-;*/
-    }
-    &__parte2--1{ 
+ /*   }
+   /* &__parte2--1{ 
         margin: 1em;
         padding: 0,5em;
         grid-area: elem1;
        /* align-self: flex-start;
         order: 3;*/
-    }
-    &__parte2--2{
+ /*   }
+  /*  &__parte2--2{
         margin: 1em;
         padding: 0,5em;
         grid-area: elem2;
        /*align-self: center;*/
-    }
-    &__parte2--3{
+  /*  }
+  /*  &__parte2--3{
         margin: 1em;
         padding: 0,5em;
         grid-area: elem3;
         /*align-self: flex-end;   
         order: 1;*/
-    }
-    &__parte2--4{
+ /*   }
+   /* &__parte2--4{
         margin: 1em;
         padding: 0,5em;
         grid-area: elem4;
