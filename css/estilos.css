@@ -38,6 +38,7 @@
 
 /*PÁGINA INICIO*/
 .pagina {
+  font-family: 'Tiro Bangla', serif !important;
   padding: 2em;
 }
 
@@ -89,9 +90,7 @@
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 50% 50% 50%;
-  grid-template-areas: "elem1 elem2 elem3 elem4"
- "elem1 elem5 elem6 elem7"
- "elem1 elem8 none none";
+  grid-template-areas: "elem1 elem2 elem3 elem4" "elem1 elem5 elem6 elem7" "elem1 elem8 none none";
   justify-content: center;
   justify-items: center;
   /*display: flex;
@@ -257,7 +256,8 @@
 }
 
 .paginacafe__texto {
-  margin: 1em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 /*FIN PÁGINA CAFÉ*/
@@ -400,7 +400,7 @@
 body {
   /* background-color:rgb(24, 23, 23) ;*/
   color: #1e3932;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif !important;
 }
 
 li {
